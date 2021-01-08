@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Lumino - Widgets</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/font-awesome.min.css" rel="stylesheet">
+	<link href="css/datepicker3.css" rel="stylesheet">
+	<link href="css/styles.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+</head>
+<body>
+	<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#sidebar-collapse"><span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span></button>
+				<a class="navbar-brand" href="#"><span>Vi Phạm Hành Chính (Sở GTVT) </span> </a>
+				<ul class="nav navbar-top-links navbar-right">
+	</nav>
+	<div id="sidebar-collapse" class="col-sm-3 col-lg-2 sidebar">
+		<div class="profile-sidebar">
+			<div class="profile-userpic">
+				<img src="http://placehold.it/50/30a5ff/fff" class="img-responsive" alt="">
+			</div>
+			<div class="profile-usertitle">
+				<div class="profile-usertitle-name">Username</div>
+				<div class="profile-usertitle-status"><span class="indicator label-success"></span>Online</div>
+			</div>
+			<div class="clear"></div>
+		</div>
+		<div class="divider"></div>
+		<form role="search">
+			<div class="form-group">
+				<input type="text" class="form-control" placeholder="Search">
+			</div>
+		</form>
+		 <!-- Start Menu  -->
+		 <ul class="nav menu">
+            <li ><a href="Canbo.thongtincanhan.html"><em class="fa far fa-user">&nbsp;</em>  Thông Tin Cá Nhân </a></li>
+            <li class="active" ><a href="taohosovipham.html"><em class="fa fa-file-upload">&nbsp;</em> Tạo Hồ Sơ Vi Phạm</a></li>
+            <li ><a href="hosovipham.html"><em class="fa fa-file-alt">&nbsp;</em> Hồ Sơ Vi Phạm</a></li>
+            <li ><a href="nguoivipham.html"><em class="fa fa-user-circle">&nbsp;</em> Người Vi Phạm</a></li>
+            <li ><a href="thongtintangvat.html"><em class="fa fa-bicycle">&nbsp;</em> Thông tin Tang Vật</a></li>							
+			<li><a href="Canbo.login.html"><em class="fa fa-power-off">&nbsp;</em> Logout</a></li>
+        </ul>
+        <!--  End Menu -->
+	</div><!--/.sidebar-->
+		
+	<div class="col-sm-9 col-sm-offset-3 col-lg-10 col-lg-offset-2 main">
+
+					<div class="panel-body">
+						<form class="form-horizontal" action="" method="post">
+							<fieldset>
+								<!-- Mã Người Vi Phạm-->
+								<div class="form-group">
+									<label class="col-md-3 control-label" for="manguoivipham">Mã Hồ Sơ</label>
+									<div class="col-md-9">
+										<input id="name" name="name" type="text" placeholder="Nhập Mã Hồ Sơ" class="form-control">
+									</div>
+								</div>
+							
+								<!-- Tên Người Vi Phạm-->
+								<div class="form-group">
+									<label class="col-md-3 control-label" for="Tennguoivipham">Tên Hồ Sơ</label>
+									<div class="col-md-9">
+										<input id="email" name="email" type="text" placeholder="Nhập Tên Hồ Sơ " class="form-control">
+									</div>
+								</div>
+								
+								
+								
+								<!-- Giới Tính -->
+								<div class="form-group">
+									<label class="col-md-3 control-label" for="Gioitinh">TG_Lập Biên Bản</label>
+									<div class="col-md-9">
+										<input id="name" name="name" type="text" placeholder="Nhập TG_Lập Biên Bản" class="form-control">
+									</div>
+								</div>
+
+								<!-- Địa Chỉ -->
+								<div class="form-group">
+									<label class="col-md-3 control-label" for="Diachi">Địa Điểm Lập Biên Bản</label>
+									<div class="col-md-9">
+										<input id="name" name="name" type="text" placeholder="Nhập Địa Điểm Lập Biên Bản" class="form-control">
+									</div>
+								</div>	
+								<!-- Số Điện Thoại -->
+								<div class="form-group">
+									<label class="col-md-3 control-label" for="Sodienthoai">Mã Cán Bộ Lập Biên Bản</label>
+									<div class="col-md-9">
+										<input id="name" name="name" type="text" placeholder=" Nhập Mã Cán Bộ Lập Biên Bản" class="form-control">
+									</div>
+								</div>	
+								<!-- Email -->
+								<div class="form-group">
+									<label class="col-md-3 control-label" >Mã Người Vi Phạm</label>
+									<div class="col-md-9">
+										<input id="name" name="name" type="text" placeholder="Nhập Mã Người Vi Phạm " class="form-control">
+									</div>
+                                </div>	
+                                <div class="form-group">
+									<label class="col-md-3 control-label" >Ngày Xử Lý HS</label>
+									<div class="col-md-9">
+										<input id="name" name="name" type="text" placeholder="Nhập Ngày Xử Lý HS " class="form-control">
+									</div>
+                                </div>	
+                                <div class="form-group">
+									<label class="col-md-3 control-label" >Mã Cán Bộ XLHS</label>
+									<div class="col-md-9">
+										<input id="name" name="name" type="text" placeholder="Nhập Mã Cán Bộ XLHS " class="form-control">
+									</div>
+                                </div>	
+                                <div class="form-group">
+									<label class="col-md-3 control-label"  for="email">Tình Trạng Hồ Sơ</label>
+									<div class="col-md-9">
+										<input id="name" name="name" type="text" placeholder="Nhập Tình Trạng Hồ Sơ " class="form-control">
+									</div>
+                                </div>	
+                                <div class="form-group">
+									<label class="col-md-3 control-label"  >Hình Ảnh</label>
+									<div class="col-md-9">
+										<input id="name" name="name" type="text" placeholder="Nhập Hình Ảnh " class="form-control">
+									</div>
+                                </div>	
+                               
+                                <div class="form-group">
+									<label class="col-md-3 control-label"  >Mô tả</label>
+									<div class="col-md-9">
+										<input id="name" name="name" type="text" placeholder="Nhập Mô tả " class="form-control">
+									</div>
+								</div>																																
+								<!-- Form actions -->
+								<div class="form-group">
+									<div class="col-md-12 widget-right">
+										<button type="submit" class="btn btn-default btn-md pull-right">Submit</button>
+									</div>
+								</div>
+							</fieldset>
+						</form>
+					</div>
+				</div>
+			</div><!--/.col-->
+	  
+
+<script src="js/jquery-1.11.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/chart.min.js"></script>
+	<script src="js/chart-data.js"></script>
+	<script src="js/easypiechart.js"></script>
+	<script src="js/easypiechart-data.js"></script>
+	<script src="js/bootstrap-datepicker.js"></script>
+	<script src="js/custom.js"></script>
+	
+</body>
+</html>
